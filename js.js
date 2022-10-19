@@ -41,7 +41,7 @@ function logout() {
     }).then((result) => {
         /* Read more about isConfirmed, isDenied below */
         if (result.isConfirmed) {
-            window.location.href = "home.html"
+            window.location.href = "index.html"
         } else if (result.isDenied) {
         }
     })
